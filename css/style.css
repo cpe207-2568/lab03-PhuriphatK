@@ -1,0 +1,162 @@
+.FH {
+  font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  
+}
+
+.FP {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  background-color: rgba(255, 255, 0, 0.7);
+  text-align: center;
+      margin: 0;
+      padding: 20px;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  
+}
+
+.textcolor {
+  background-color: aquamarine;
+  border-radius: 10px;
+  margin: 20px 0;
+  border: 2px solid palevioletred;
+  padding: 20px;
+}
+
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+    margin: 10px 0;
+    border: 4px solid palevioletred;
+}
+
+.center {
+    text-align: center;
+}
+
+.halfcolor {
+    opacity: 0.6;
+}
+
+.card {
+      display: flex;
+      background-color: white;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 10px;
+      border: 2px solid palevioletred;
+      display: flex;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+      text-align: left;
+      
+    }
+
+.experience-box {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+.card2 {
+background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      width: 300px;
+      overflow: hidden;
+      text-align: center;
+}
+
+.head-bg {
+    background-color: rgba(255, 255, 0, 0.7);
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px dashed palevioletred;
+    margin: 5px;
+
+}
+
+.box-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-align: left;
+  }
+
+  .icon-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+    .contact-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      max-width: 900px;
+      margin: auto;
+      flex-wrap: wrap;
+    }
+
+    .contact-details {
+      text-align: left;
+      font-size: 1em;
+      max-width: 500px;
+    }
+
+    .contact-details b {
+      display: inline-block;
+      width: 100px;
+    }
+
+    @media screen and (max-width: 400px){
+      .contact-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .contact-details {
+        text-align: center;
+      }
+
+      .contact-details b {
+        width: auto;
+        display: block;
+        margin-top: 10px;
+      }
+
+    }
